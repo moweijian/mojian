@@ -1,0 +1,253 @@
+@charset "utf-8";
+html{
+	font-size: 625%;
+}
+body,ul,li,img,div,a,input,button,h1,h2,hgroup,figure,figcaption{
+	margin: 0;
+	padding: 0;
+}
+body{
+	
+	font-size: 0.16rem;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+/*头部区域*/
+#header{
+	max-width: 9.8rem;
+	margin: 0 auto;
+	background: #DDDDDD;
+	height: 0.3rem;
+	margin-bottom: 0.1rem;
+}
+
+
+.header-L li{
+	color: #666666;
+	font-size: 0.14rem;
+	
+	float: left;
+	line-height: 0.3rem;
+
+}
+.header-R li{
+	
+	width: 0.6rem;
+	font-size: 0.14rem;
+	float: right;
+	
+	line-height: 0.3rem;
+}
+.header-R li a{
+	color: #000;
+}
+.header-R li a:hover{
+	color: green;
+}
+
+/*logo区域*/
+#second{
+	
+	max-width: 9.6rem;
+	padding-right: 0.2rem;
+	height:1.2rem;
+	margin: 0 auto;
+	
+}
+#second img{
+	border:none;
+	display: block;
+	float: left;
+}
+#search-top{
+	padding-top: 0.3rem;
+	float: right;
+}
+#search-top .search{
+	display: block;
+	float: right;
+	margin-left: 0.01rem;
+	width: 2.5rem
+	height: 1.0rem;
+	border-radius: 0.04rem;
+	border: none;
+	outline: none;
+	
+	
+}
+.bottom{
+	color: #999;
+	display: block;
+	float: right;
+	
+}
+#search-top li{
+	margin-right: 0.1rem;
+	float: left;
+}
+#search-top li a{
+	color: #999;
+}
+#search-top li a:hover{
+	color: #FF4500;
+}
+
+/*导航区*/
+#nav{
+	font-size: 0.16rem;
+	height: 0.5rem;
+	margin: 0 auto;
+	max-width: 9.8rem;
+}
+.navL{
+	
+    width: 100%;
+	background: green;
+}
+.navL li{
+	
+	
+	width: 20%;
+	float: left;
+	line-height: 0.5rem;
+	text-align: center;
+}
+.navL li a{
+	display: block;
+	color: #000;
+}
+.navL li a:hover{
+	color: red;
+}
+.navL li:first-child a{
+	color: red;
+}
+
+
+#merch{
+	max-width: 9.8rem;
+	margin: 0 auto;	
+	
+}
+#merch img{
+	width: 100%;
+	
+}
+.menu-l{
+	
+	width: 2.0rem;
+	background: gold;
+
+}
+.menu-l li{
+	
+	line-height: 0.4rem;
+	text-align: center;
+	width: 100%;
+	height: 0.39rem;
+	background: red;
+	border-bottom: solid 0.01rem #ccc;*/
+
+}
+
+#item{
+	height: 6.3rem;
+	margin-top: 0.2rem;
+	max-width: 9.8rem;
+	margin: 0 auto;
+}
+#item .item{
+	width: 100%;
+}
+.iter-img{
+	
+
+	width: 20%;
+	float: left;
+}
+.iter-img img{
+	width: 100%;
+	
+}
+
+}
+.iter-img figcaption p{
+	white-space: ;
+}
+
+/*媒体查询，小于766px*/
+@media (max-width:980px){
+
+	/*#merch{
+		overflow: hidden;
+	}*/
+}
+/*媒体查询，小于766px*/
+@media (max-width:766px){
+	.iter-img:first-child{
+		display: none;	
+	}
+	.iter-img{
+		width: 25%;
+	}
+	
+}
+/*媒体查询，小于640px*/
+@media (max-width:640px) {
+	.iter-img:nth-child(2){
+		display: none;
+	}
+	.iter-img{
+		width: 33%;
+	}
+	
+}
+/*媒体查询，小于530px*/
+@media (max-width:530px){
+	
+	#second img	{
+		width: 1.75rem;
+	}
+	
+ 
+	
+}
+
+/*媒体查询，小于480px*/
+@media (max-width:480px) {
+	.header-L li{
+		display:none;
+	}
+	.header-R{
+		width: 100%;
+	}
+	.header-R li{
+		font-size: 0.12rem;
+		white-space: nowrap;
+		overflow: hidden;
+		width: 25%;
+		text-align: center;
+	}
+
+}
+/*媒体查询，小于400px*/
+@media (max-width:480px){
+	
+	#second img	{
+		display: none;
+		
+	}
+	.iter-img:nth-child(3){
+		display: none;
+	}
+	.iter-img{
+		width: 50%;
+	}
+	
+	
+}

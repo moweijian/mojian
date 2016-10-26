@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+*{ list-style:none; text-decoration:none;}
+#mojian{width:1024px; height:74px;}
+.nav li{float:left; list-style:none; margin-left:20px; position:relative;}
+.nav a{line-height:60px; padding:0 12px; color:#000;
+display:inline-block; transition:all 0.5s;}
+.nav a:hover{color:#F00;}
+
+.none{width:140px; position:absolute; top:60px; left:px;;
+display:none;}
+.none a{ line-height:20px;}
+.beijing{width:1024px; height:74px; border-bottom:1px solid #ccc; background:#000; opacity:0.8; z-index:-1; position:absolute; top:0; left:0;}

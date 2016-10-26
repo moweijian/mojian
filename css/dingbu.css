@@ -1,0 +1,156 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{margin:0; padding:0; font-size:12px; font-family:"微软雅黑","宋体"; }
+a, body, caption, dd, div, dl, dt, em, form, h1, h2, h3, h4, h5, h6, html, img, label, li, p, span, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, tt, ul {
+	 margin: 0;padding: 0; list-style:none; border:0;}
+#header {width:1316px; height:30px; line-height:30px; margin:0 auto;}
+.headerL li{float:left;}
+.headerL span{padding:0 16px 0 16px;}
+.headerR li {float:right;}
+.headerR li a:hover{color:#F00;}
+.headerR span{padding:0 14px 0 14px;}
+#header2{width:100%px; height:120px;}
+#mowei{ width:1316px; height:120px; margin: 0 auto; background:}
+#moweiR{ padding-top:39px;}
+img{ float:left;}
+.sou{width:289px; height:34px; color:#B9CEE9; border:1px solid #B9CEE9;}
+#sousuo li{float:left; padding:7px 8px;}
+#sousuo li a{text-decoration:none; color:#CCC;}
+
+
+
+#banner{width:1316px; height:44px; line-height:44px; text-align:center; margin:0 auto;}
+.zonglei{margin-left:42px;}
+.daohang li {float:left;}
+.daohang li a{float:left; text-decoration:none; font-size:16px;}
+.daohang span{padding:0 22px 022px;}
+.daohang li a{ color:#333;}
+.daohang li a:hover{color:#F00;}
+.daohang .first a{color:#f00; margin-left:59px;}
+#banner .gouwuche{float:right;}
+
+
+
+#container{width:100%px; height:400px; background:red;}
+#nav{width:1316px; height:400px; margin:0 auto;}
+.but{width:1316px; height:400px; margin:0 auto; position: absolute;left: 294px;}
+.but2{
+	display: none;
+}
+
+#sss{
+	width:100%px; height:400px; background:red;
+}
+
+
+
+
+.ding{width:232px; height:40px; line-height:40px; font-size:16px;margin-left:42px;color:#FFF; background:#7A0D06; position: absolute;}
+.ding:hover{background:#F00}
+#nav .mojian a{display:block;text-decoration:none; text-align:center; color:#FFF;}
+
+
+
+
+#dongtai{width:1210px; height:45px; line-height:45px;line-height:45px; margin:0 auto;padding:0 72px 0 34px;}
+.dongtaiL a{text-decoration:none; color:#CCC; font-size:14px; padding-left:23px;}
+.dongtaiL a:hover{color:#F00;}
+
+
+#houbu{width:100%;}
+.houbu1{width:1210px; height:67px; line-height:67px; margin:0 auto;padding:0 72px 0 34px;}
+.houbu1 .hou a{color:#F00;text-decoration:none;}
+.houbu1 .hou a:hover{text-decoration:underline;}
+.houbu1 a{color:#CCC;text-decoration:none;}
+.houbu1 a:hover{color:#F00;}
+.houbu2{width:1210px; height:300px; margin:0 auto;padding:0 72px 0 34px;}
+.houbu2 .ipa{width:239px; height:300px; background: url(../img/jiexiao.png)no-repeat; border:1px solid #F00; float:left;}
+.houbu2 .ipa img{margin:36px 0 0 59px; float:left;}
+.houbu2 .ipa .one{color:#F00;text-decoration:none; font-size:18px;}
+.houbu2 .ipa .two{text-decoration:none; color:#CCC; font-size:14px;}
+.houbu2 .ipa .two:hover{color:#F00;}
+
+#houzhongbu{width:100%; background:#FFF;}
+.houzhong1{width:1210px; height:67px; line-height:67px; margin:0 auto;padding:0 72px 0 34px;}
+.houzhong1 a{color:#CCC;text-decoration:none;}
+.houzhong1 a:hover{color:#F00;}
+
+
+#houzhongbu1{width:1232px; height:713px; line-height:67px; margin:0 auto;padding:0 50px 0 34px;}
+.zhongL{width:949px; height:713px; float:left;}
+.zhongR{width:283px; height:713px; float:right;}
+.zhongL .zuotu{width:236px; height:356px;list-style:none; float:left;}
+.zhongL .zuotu  dd a{text-decoration:none; display:block; margin-left:25px;}
+.zhongL .zuotu  dd a:hover{color:#F00;text-decoration:underline;}
+
+.zhongR li a{line-height:15px; text-decoration:none;}
+.zhongR li a:hover{color:#F00; text-decoration:underline;}
+.zhongR .kan{width:250px; font-size:16px; margin-left:50px; line-height:44px;}
+.zhongR .kan a{color:#CCC; text-decoration:none;}
+.zhongR .kan a:hover{color:#F00; text-decoration:underline;}
+
+
+
+.houzhongbu2{width:1210px; height:40px; line-height:40px; margin:0 auto;padding:0 72px 0 34px;}
+/*
+#houzhongbu3{{width:100%;}
+.houzhongbus{width:1210px; height:796px;margin:0 auto;padding:0 72px 0 34px; background:#9F3;}
+.zhongtu{width:320px; height:398px;}
+*/
+#houxiabu{width:100%; height:847px;}
+.xiabus{width:1210px; height:796px;margin:0 auto;padding:0 72px 0 34px;}
+.xiabus .txt a{text-decoration:none; color:#999;}
+.xiabus .txt a:hover{text-decoration:underline; color:#F00;}
+.xiabus .img a{color:#FFF; text-decoration:none;}
+.xiabux{width:1210px; height:60px;margin:0 auto;padding:0 72px 0 34px; border-bottom:1px solid #ccc;}
+.juzhong{width:161px; line-height:60px;font-size:16px; margin:0 auto;}
+.juzhong a{text-decoration:none; color:#000;}
+.juzhong a:hover{color:#F00;}
+
+.houzhongbu3{width:1210px; height:40px; line-height:40px; margin:0 auto;padding:0 72px 0 34px;}
+
+#houxiazhongbu{width:100%; height:656px;}
+.xiazhongbu{width:1210px; height:656px;margin:0 auto;padding:0 72px 0 34px;}
+.xiazhongbu li{width:300px; height:328px; border:1px solid #CCC; float:left;}
+.xiazhongbu li dl dd{margin-left:15px; font-size:14px;}
+.xiazhongbu li dl dd a{color:#333; text-decoration:none;}
+.xiazhongbu li dl dd a:hover{color:#F00; text-decoration:underline;}
+
+.houzhongbu4{width:1210px; height:40px; line-height:40px; margin:0 auto;padding:0 72px 0 34px;}
+
+#houtu{width:1210px; height:516px; margin:0 auto;padding:3px 72px 0 32px;}
+.houtuL{width:305px; height:516px; float:left;}
+.houtuR{width:896px; height:516px; float:right;}
+.houtuR li{width:296px; height:256px; float:left;border:1px solid #CCC;}
+.houtuR li .shuo a:hover{color:#F00}
+
+#houtext{width:1210px; height:175px; margin:0 auto;padding:3px 72px 0 32px;}
+#houtext li{width:195px; height:145px; padding:30px 0 0 47px; float:left;}
+#houtext li dt{color:#999;}
+#houtext li dd{line-height:25px;}
+#houtext li dd a{ color:#CCC; text-decoration:none; font-size:14px;}
+#houtext li dd a:hover{color:#F00; text-decoration:underline;}
+
+#footer{width:1210px;height:190px; margin:0 auto;padding:0 72px 0 32px;}
+#footer li{width:199px;height:190px; border:1px solid #CCC; float:left;}
+#footer li dt img{width:199px;}
+#footer li dl dd{margin-left:55px; line-height:20px;}
+
+#shengming{width:1210px; height:30px; margin:0 auto;padding:3px 72px 0 32px; margin-top:6px;}
+.center{width:620px; height:30px; margin:0 auto;}
+#shengming li{float:left;}
+#shengming li span{margin:0 10px; color:#999;}
+#shengming li a{color:#999; font-size:14px; line-height:30px; text-decoration:none;}
+#shengming li a:hover{color:#F00; text-decoration:underline;}
+
+#weibu{width:1210px; height:52px; margin:0 auto;padding:3px 72px 0 32px;}
+.weibu1{width:226px; height:32px; margin:0 auto;}
+.weibu1 li{float:left;}
+.weibu1 li span{margin:0 10px; color:#999;}
+.weibu1 li a{color:#999; font-size:14px; line-height:32px; text-decoration:none;}
+.weibu1 li a:hover{color:#F00; text-decoration:underline;}
+.weibu2{width:522px; height:20px;margin:0 auto; color:#999;}

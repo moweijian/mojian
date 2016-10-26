@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<script src="../js/jquery190.js" ></script>
+		<title></title>
+		<style type="text/css">
+			body{width: 100%;}
+			ul{width: 980px; height: 30px; margin: 0 auto;}
+			li{width: 200px; height:30px;float:left;list-style: none;}
+			.one{background-color: gold;}
+		    .two{background-color: red;}
+			#container div{width: 980px;height: 600px;margin: 0 auto;background: red;display: none;}
+		</style>
+	</head>
+	<body>
+		
+			<ul>
+				<li class="">简介</li>
+				<li class="two  ">介绍</li>
+				<li class="two">历史</li>
+				<li class="two">咨询</li>
+			</ul>
+	
+		<div id="container">
+			<div>简介。请看</div>
+			<div>婚姻介绍所</div>
+			<div>公司发展历史</div>
+			<div>在线咨询</div>
+		</div>
+		
+		<input type="text" value="0" disabled="disabled">
+		
+		桌球<input type="checkbox" value="0">
+		篮球<input type="checkbox" value="1">
+		羽毛球<input type="checkbox" value="2">
+		<input id='register' type="button" value="注册">
+	</body>
+</html>
+<script>
+	$('li').click(function(){
+		
+//		var num=$(this).index();
+//		$(this).toggleClass('one');
+//		$('li').css('background','gray')
+//		$(this).css('background','gold');
+//		$('#container').children().hide();
+//		$('#container').children().eq(num).show();
+
+//		var num=$(":input").val();
+//		if(num%2==0)
+//		{
+//			$(this).removeClass('two');
+//			$(this).addClass('one');
+//		}else
+//		{
+//			$(this).removeClass('one');
+//			$(this).addClass('two');
+//		}
+//		num=parseInt(num)+1;
+//		$(":input").val(num);
+
+
+	});
+	
+//	$("#register").click(function(){
+//		var panduan = $("input[type='checkbox']").prop("checked");
+//		if(panduan)
+//		{
+//			alert('注册成功');
+//		}
+//		else
+//		{
+//			alert('最小选择一个');
+//		}
+//	})
+	
+	//$("input[type='checkbox']").prop("checked", true);
+
+	
+</script>

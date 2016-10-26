@@ -1,0 +1,105 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+ <head> 
+ <script src="jquery.min.js" ></script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+  <title>images</title> 
+<!--  <style>
+  #img #ulsign { float:left}
+  </style>
+<script type="text/javascript">
+
+  var pic = 0; 
+  var showtime = 1000; 
+  var arr = new Array(); 
+  arr[0] ="img/1.jpg"; 
+  arr[1] ="img/2.jpg"; 
+  arr[2] ="img/3.jpg"; 
+  arr[3] ="img/4.jpg"; 
+  arr[4] ="img/5.jpg";  
+  setInterval(time,showtime); 
+  function time() { 
+   var lb = document.getElementById("lb"); 
+   if (pic == arr.length-1) { 
+    pic = 0; 
+   } else { 
+    pic += 1; 
+     } 
+   lb.src = arr[pic]; 
+  } 
+ </script> --> 
+ 
+
+
+
+ </head> 
+ <body> 
+ 
+  <div>
+	 <div id='ulsign'>
+         <ul>
+             <li class='showimg'>1111</li>
+             <li class='showimg'>222</li>
+             <li class='showimg'>3333</li>
+             <li class='showimg'>44444</li>
+         </ul>
+
+    </div>
+    
+     <div id="img">
+		 <img id = "lb" src="../img/1.jpg" border = 0 />
+ 	 </div>
+  </div>
+ 
+  
+  
+  
+  <input type="text" id="wei" value="1" /> 
+ </body> 
+</html>
+ <script type="text/javascript">
+ 
+ var delay=1000;
+ function changeimg()
+ {
+	 	
+	 $('#wei').val(num);
+	  num=parseInt(num)+1;
+	 
+	var url='../img/'+num+'.jpg'; 
+	  $('#lb').attr('src',url);
+	 var num=$("#wei").val();
+	  
+	  if(num>4)
+	 {
+		 num=0;
+	 }
+	 
+ }
+	 
+setInterval(changeimg,delay);
+$(function(){
+	
+	$('.showimg').mouseover(function(){
+		var value=$(this).index();
+	changeimg(value);
+	})
+	
+})
+
+function changeimg(value)
+ {
+
+	 value=parseInt(value)+1;
+ 
+	  
+	  var url='../img/'+value+'.jpg'; 
+	  $('#lb').attr('src',url);
+
+
+} 
+
+
+
+ </script>
