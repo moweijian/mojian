@@ -128,13 +128,12 @@ ul,a{
 #data-map p{
 	margin:20px 0 0 370px;
 }
+
+
+
 #mowei{
-	width: 1810px;
 	height: 675px;
-	margin: 0 auto;
-}
-#mowei img{
-	margin-left: -330px;
+    background-image: url(xinimg/竞价优势.png);
 }
 .footer{
 	width: 1000px;
